@@ -1,0 +1,18 @@
+/* 重置 iview 组件库样式 */
+
+
+/*重置iview confirm modal icon */
+.ivu-modal-confirm-head-icon .ivu-icon{
+	font-size: 26px;
+}
+
+/* iview modal 垂直居中 */
+.vertical-center-modal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertical-center-modal .ivu-modal{
+	top: 0;
+}

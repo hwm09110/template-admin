@@ -1,0 +1,86 @@
+.text-align_center {
+  text-align: center
+}
+
+.text-align_right {
+  text-align: right
+}
+
+.flex {
+  display: flex
+}
+
+.flex-wrap_wrap {
+  flex-wrap: wrap
+}
+
+.justify-space_around {
+  justify-content: space-around
+}
+
+.justify-space_between {
+  justify-content: space-between
+}
+
+.justify-content {
+  justify-content: center
+}
+
+.justify-content_end {
+  justify-content: flex-end;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.flex-direction_column {
+  flex-direction: column
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.color-blue {
+  color: #02affe
+}
+
+.color-gray {
+  color: gray;
+}
+
+.color-red {
+  color: red;
+}
+
+.text-decoration_underline {
+  text-decoration: underline
+}
+
+.line-clamp-2 {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  line-height: 1.5;
+}
+
+.page-box {
+  padding: 20px;
+}
+
+span .font-size-12 {
+  font-size: 12px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.edui-popup-content.edui-default {
+  height: auto !important;
+}
