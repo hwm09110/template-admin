@@ -64,13 +64,14 @@ module.exports = {
 				],
 				js: [
 					// vue
-					'//cdn.staticfile.org/vue/2.5.21/vue.min.js',
+					'//cpt.gzhtedu.cn/web/vue/vue-2.5.21.min.js',
 					// vue-router
-					'//cdn.staticfile.org/vue-router/3.0.1/vue-router.min.js',
+					'//cpt.gzhtedu.cn/web/vue/vue-router-3.0.1.min.js',
 					// vuex
-					'//cdn.staticfile.org/vuex/3.1.0/vuex.min.js',
+					'//cpt.gzhtedu.cn/web/vue/vuex-3.1.0.min.js',
 					// axios
-					'//cdn.staticfile.org/axios/0.18.0/axios.min.js'
+					// app.gzhtedu.cn
+					'//cpt.gzhtedu.cn/web/vue/axios-0.18.0.min.js'
 				]
 			}
 			config.plugin('html').tap((args) => {
