@@ -1,4 +1,4 @@
-# xtl-admin
+# template-admin
 
 ## Project setup
 ```
