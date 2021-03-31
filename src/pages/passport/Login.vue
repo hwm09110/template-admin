@@ -3,9 +3,7 @@
 		<section class="content flex" v-if="!singlePoint">
 			<div class="left"></div>
 			<div class="right">
-				<div class="logo text-align_center">
-					智能班牌-后台管理系统
-				</div>
+				<div class="logo text-align_center"> {{ systemName }}-后台管理系统 </div>
 				<Form ref="formInfo" :model="formInfo" :rules="ruleInfo" :label-width="0">
 					<FormItem prop="username">
 						<div class="username">
@@ -45,6 +43,7 @@
 </template>
 <script>
 // import VerifyModal from '@c/VerifyModal';
+import { mapState } from 'vuex'
 import { encrypt, decrypt } from '@/utils/encry'
 import { isPhone, getDeviceFinger } from '@/utils/utils'
 import Cookies from 'js-cookie'
@@ -68,6 +67,9 @@ export default {
 			learnStatus: false, // 自动登录
 			readStatus: false // 协议
 		}
+	},
+	computed: {
+		...mapState(['systemName'])
 	},
 	methods: {
 		handleSubmit(name) {
